@@ -14,13 +14,14 @@ namespace Portfolio_Backend.Controllers
         {
             _navbarBusiness = navbarBusiness;
         }
-
+        // this method is used to get the navbar details from the database
         [HttpGet]
         public async Task<IActionResult> GetNavbar()
         {
             var result = await _navbarBusiness.GetNavbarDetails();
             return Ok(result);
         }
+        // this method is used to create the navbar details in the database
         [HttpPost]
         public async Task<IActionResult> CreateNavbar([FromBody] NavbarViewModel navbarDetails)
         {

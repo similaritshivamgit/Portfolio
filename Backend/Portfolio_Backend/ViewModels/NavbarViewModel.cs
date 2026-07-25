@@ -3,6 +3,6 @@
     public class NavbarViewModel
     {
         public string Logo { get; set; } = string.Empty;
-        public List<string>? MenuItems { get; set; }
+        public List<object>? MenuItems { get; set; }
     }
 }
