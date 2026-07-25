@@ -1,2 +1,2 @@
 # Portfolio
- This project provide you to showcase your profile
+ This project provide you to showcase your profile.
